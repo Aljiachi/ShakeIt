@@ -5,7 +5,7 @@ apply plugin: 'com.jfrog.bintray'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "aljiachi.net.shakeit"
+        applicationId "net.aljiachi.shakeit"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
@@ -25,7 +25,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'shakeit'
 
-    publishedGroupId = 'net.alkafeel.shakeit'
+    publishedGroupId = 'net.aljiachi.shakeit'
     libraryName = 'ShakeIt'
     artifact = 'shakeit'
 
